@@ -29,7 +29,7 @@
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.5 0.42</origin>
 			<origin if="${screen.ratio} == '16/10'">0.5 0.47</origin>
-			<origin if="${screen.ratio} == '21/9'">0.5 0.5</origin>
+			<origin if="${screen.ratio} == '21/9'">0.6 0.5</origin>
 			<pos>0.541 0.447</pos>
 			<maxSize>0.204</maxSize>
 			<zIndex>25</zIndex>
