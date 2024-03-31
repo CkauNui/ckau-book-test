@@ -9,6 +9,7 @@
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.5 0.35</origin>
 			<origin if="${screen.ratio} == '16/10'">0.5 0.45</origin>
+			<origin if="${screen.ratio} == '21/9'">0.45 0.45</origin>
 			<pos>0.4755 0.39</pos>
 			<maxSize>0.257</maxSize>
 			<storyboard>
@@ -28,6 +29,7 @@
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.5 0.35</origin>
 			<origin if="${screen.ratio} == '16/10'">0.5 0.45</origin>
+			<origin if="${screen.ratio} == '21/9'">0.45 0.45</origin>
 			<pos>0.4755 0.39</pos>
 			<maxSize>0.237</maxSize>
 			<zIndex>25</zIndex>
