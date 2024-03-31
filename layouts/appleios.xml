@@ -6,10 +6,10 @@
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.5 -0.25</origin>
 			<origin if="${screen.ratio} == '16/10'">0.5 0.2475</origin>
-			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
 			<pos>0.498 0.2753</pos>
 			<minSize>0.45 0.1</minSize>
-			<minSize if="${screen.ratio} == '4/3'">0.59 0.1</minSize>	
+			<minSize if="${screen.ratio} == '4/3'">0.59 0.1</minSize>
+			<minSize if="${screen.ratio} == '16/10'">0.49 0.1</minSize>
 			<rotation>0</rotation>
 			<path>./../../_inc/images/space169.png</path>
 			<zIndex>27</zIndex>
@@ -21,7 +21,6 @@
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.5 1.22</origin>
 			<origin if="${screen.ratio} == '16/10'">0.5 0.74</origin>
-			<origin if="${screen.ratio} == '21/9'">1 0.5</origin>
 			<pos>0.498 0.7175</pos>
 			<minSize>0.45 0.1</minSize>
 			<minSize if="${screen.ratio} == '4/3'">0.59 0.1</minSize>
@@ -42,7 +41,6 @@
 			<maxSize>0.4238</maxSize>
 			<maxSize if="${screen.ratio} == '4/3'">0.5565</maxSize>
 			<maxSize if="${screen.ratio} == '16/10'">0.463</maxSize>
-			<maxSize if="${screen.ratio} == '21/9'">0.36</maxSize>			
 			<storyboard>
 				<animation property="pos" to="0.2195 0.49" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
@@ -61,7 +59,6 @@
 			<maxSize>0.4155</maxSize>
 			<maxSize if="${screen.ratio} == '4/3'">0.556</maxSize>
 			<maxSize if="${screen.ratio} == '16/10'">0.461</maxSize>
-			<maxSize if="${screen.ratio} == '21/9'">0.33</maxSize>		
 			<zIndex>25</zIndex>
 			<storyboard>
 				<animation property="pos" to="0.22 0.49" begin="2000" duration="1000" mode="linear"/>
